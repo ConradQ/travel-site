@@ -13,36 +13,47 @@
     <body>
         <section class="carousel">
             <h1>Nasze dotychczasowe podróże</h1>
-            <div class="main-carousel">
-                <div class="carousel-cell">
+            <button class="flickity-button restart-button" type="reset">Restart</button>
+            <div class="main-carousel" data-flickity='{ "hash": true}'>
+                <div class="carousel-cell" id="carousel-cell_1">
                     <div class="container" style="background-image:url('image/Maspalomas-Gran-Canaria.jpg');">
-                        <p>DUNAS MASPALOMAS - GRAN CANARIA - SPAIN</p>
+                        <p>DUNAS MASPALOMAS - GRAN CANARIA - SPAIN - 06.2019</p>
                     </div>
                 </div>
-                <div class="carousel-cell">
+                <div class="carousel-cell" id="carousel-cell_2">
                     <div class="container" style="background-image:url('image/balos.jpeg');">
-                        <p>BALOS BEACH - CRETE - GREECE</p>
+                        <p>BALOS BEACH - CRETE - GREECE - 06.2016</p>
                     </div>
                 </div>
-                <div class="carousel-cell">
+                <div class="carousel-cell" id="carousel-cell_3">
                     <div class="container" style="background-image:url('image/elafonisi.jpg');">
-                        <p>ELAFONISI BEACH - CRETE - GREECE</p>
+                        <p>ELAFONISI BEACH - CRETE - GREECE - 06.2016</p>
                     </div>
                 </div>
-                <div class="carousel-cell">
+                <div class="carousel-cell" id="carousel-cell_4">
                     <div class="container" style="background-image:url('image/navagio beach2.jpg');">
-                        <p>NAVAGIO BEACH - ZAKYNTHOS - GREECE</p>
+                        <p>NAVAGIO BEACH - ZAKYNTHOS - GREECE - 06.2017</p>
                     </div>
                 </div>
-                <div class="carousel-cell">
+                <div class="carousel-cell" id="carousel-cell_5">
                     <div class="container" style="background-image:url('image/krka.jpg');">
-                        <p>KRKA NATIONAL PARK - CROATIA</p>
+                        <p>KRKA NATIONAL PARK - CROATIA - 08.2014</p>
                     </div>
                 </div>
             </div>
+            <div class="progress-bar"></div>
+            <p>
+                View:
+                <a href="#carousel-cell_1">Cell 1</a>
+                <a href="#carousel-cell_2">Cell 2</a>
+                <a href="#carousel-cell_3">Cell 3</a>
+                <a href="#carousel-cell_4">Cell 4</a>
+                <a href="#carousel-cell_5">Cell 5</a>
+            </p>
         </section>
 
         <script src="vendor/flickity.pkgd.min.js"></script>
+        <script src="vendor/hash.js"></script>
         <script src="js/script.js"></script>
         
     </body>
