@@ -1,70 +1,22 @@
 /* external css: flickity.css */
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
-body {
-  font-family: sans-serif;
-}
+body { font-family: sans-serif; }
 
-.restart-button {
-  position: absolute;
-  right: 10px;
-  border-radius: 5px;
-  height: 25px;
-}
+.carousel h1 { text-align: center; }
 
-.main-carousel {
-  background: #333;
-}
+.restart-button { position: absolute; margin: 10px 0 0 5px; border-radius: 5px; border-style: none; height: 30px; z-index: 2; }
 
-.carousel-cell {
-  width: 100%;
-  height: 50vh;
-  margin: 0 auto;
-  min-height: 250px;
-  margin-right: 10px;
-  border-radius: 5px;
-  counter-increment: carousel-cell;
-}
+.flickity-button:focus { box-shadow: none; }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 50vh;
-}
+.main-carousel { background: #333; }
 
-.container p {
-  padding: 10px;
-  margin: 0;
-  text-align: center;
-  color: beige;
-  font-weight: bold;
-}
+.carousel-cell { width: 100%; height: 50vh; margin: 0 auto; min-height: 250px; margin-right: 10px; border-radius: 5px; counter-increment: carousel-cell; }
 
-.progress-bar {
-  height: 20px;
-  width: 0;
-  background: #e96224;
-}
+.container { max-width: 1200px; margin: 0 auto; background-size: cover; background-repeat: no-repeat; background-position: center; height: 50vh; }
 
-/* cell number
-.carousel-cell:before {
-  display: block;
-  //max-height: 100%;
-  //margin: 0 auto;
-  //max-width: 100%;
-  //opacity: 0;
-  text-align: center;
-  content: counter(carousel-cell);
-  line-height: 400px;
-  font-size: 80px;
-  color: white;
-  -webkit-transition: opacity 0.4s;
-          transition: opacity 0.4s;
-}*/
+.container p { padding: 10px; margin: 0; text-align: center; color: beige; font-weight: bold; }
 
-/*# sourceMappingURL=style.css.map */
+.progress-bar { height: 20px; width: 0; background: #e96224; }
+
+/* cell number .carousel-cell:before { display: block; //max-height: 100%; //margin: 0 auto; //max-width: 100%; //opacity: 0; text-align: center; content: counter(carousel-cell); line-height: 400px; font-size: 80px; color: white; -webkit-transition: opacity 0.4s; transition: opacity 0.4s; }*/
